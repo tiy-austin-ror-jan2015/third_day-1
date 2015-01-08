@@ -5,6 +5,9 @@ class Blackjack
   end
 
   def play
+    # JH
+    # - We already made most of these changes in class, but go ahead and try to reduce the amount of nested ifs here
+    # - and instead let the loop do the work for you.
     while @player.money > 10 do
       puts "Press p to play.['h' is hit, 's' is stay, ctl'+'d' is exit]"
       puts "You have $#{@player.money}."
