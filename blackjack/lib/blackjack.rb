@@ -47,6 +47,7 @@ class Blackjack
                         puts "Too many hits."
                       end
                     end
+        #Fourth Hit
                   else
                     puts "Winner"
                   end
